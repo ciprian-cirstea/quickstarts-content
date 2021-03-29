@@ -1,0 +1,33 @@
+{
+  "apiVersion": "console.openshift.io/v1",
+  "kind": "ConsoleQuickStart",
+  "metadata": {
+    "name": 1617016137936
+  },
+  "spec": {
+    "conclusion": "Conclusion",
+    "description": "description",
+    "displayName": "title one",
+    "durationMinutes": "3",
+    "icon": "https://icons.iconarchive.com/icons/danieledesantis/playstation-flat/256/playstation-square-black-and-white-icon.png",
+    "introduction": "Introduction",
+    "nextQuickStart": [],
+    "prerequisites": [],
+    "tasks": [
+      {
+        "title": "task 1",
+        "summary": {
+          "failed": "f",
+          "success": "s"
+        },
+        "description": "Task description",
+        "active": true,
+        "review": {
+          "instructions": "i",
+          "failedTaskHelp": "f"
+        }
+      }
+    ],
+    "version": "4"
+  }
+}
