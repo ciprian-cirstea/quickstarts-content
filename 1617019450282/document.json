@@ -1,0 +1,19 @@
+{
+  "apiVersion": "console.openshift.io/v1",
+  "kind": "ConsoleQuickStart",
+  "metadata": {
+    "name": 1617019450282
+  },
+  "spec": {
+    "conclusion": "",
+    "description": "",
+    "displayName": "qucick start title",
+    "durationMinutes": "",
+    "icon": "",
+    "introduction": "",
+    "nextQuickStart": [],
+    "prerequisites": [],
+    "tasks": [],
+    "version": ""
+  }
+}
