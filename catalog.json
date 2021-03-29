@@ -5,7 +5,7 @@
          "all"
       ]
    },
-   "editors": {},
+   "editors": {"all":["all"]},
    "viewers": {},
    "previewers": {},
    "info": {}
