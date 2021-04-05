@@ -16,6 +16,19 @@
     "introduction": "### This quick start shows you how to add health checks to your sample application.\nYou should have previously created the **sample-app** application and **nodejs-sample** deployment using the **Get started with a sample** quick start. If you haven't, you may be able to follow these tasks with any existing deployment without configured health checks.",
     "tasks": [
       {
+        "title": "A new task ",
+        "summary": {
+          "failed": "",
+          "success": ""
+        },
+        "description": "",
+        "active": true,
+        "review": {
+          "instructions": "",
+          "failedTaskHelp": ""
+        }
+      },
+      {
         "title": "Viewing the details of your sample application",
         "description": "### To view the details of your sample application:\n1. Go to the project your sample application was created in.\n2. In the **</> Developer** perspective, go to **Topology**.\n3. Click on the **nodejs-sample** deployment to view its details.\n\nA side panel is displayed containing the details of your sample application.",
         "review": {
