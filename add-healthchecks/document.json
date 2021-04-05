@@ -18,14 +18,14 @@
       {
         "title": "A new task ",
         "summary": {
-          "failed": "",
-          "success": ""
+          "failed": "ffff",
+          "success": "succcc"
         },
-        "description": "",
+        "description": "This is the task description",
         "active": true,
         "review": {
-          "instructions": "",
-          "failedTaskHelp": ""
+          "instructions": "intro",
+          "failedTaskHelp": "failed task"
         }
       },
       {
