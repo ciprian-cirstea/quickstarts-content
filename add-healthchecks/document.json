@@ -14,20 +14,11 @@
       "You completed the \"Getting started with a sample\" quick start."
     ],
     "introduction": "### This quick start shows you how to add health checks to your sample application.\nYou should have previously created the **sample-app** application and **nodejs-sample** deployment using the **Get started with a sample** quick start. If you haven't, you may be able to follow these tasks with any existing deployment without configured health checks.",
+    "conclusion": "Your sample application now has health checks. To ensure that your application is running correctly, take the **Monitor your sample application** quick start.",
+    "nextQuickStart": [
+      "monitor-sampleapp"
+    ],
     "tasks": [
-      {
-        "title": "A new task ",
-        "summary": {
-          "failed": "ffff",
-          "success": "succcc"
-        },
-        "description": "This is the task description",
-        "active": true,
-        "review": {
-          "instructions": "intro",
-          "failedTaskHelp": "failed task"
-        }
-      },
       {
         "title": "Viewing the details of your sample application",
         "description": "### To view the details of your sample application:\n1. Go to the project your sample application was created in.\n2. In the **</> Developer** perspective, go to **Topology**.\n3. Click on the **nodejs-sample** deployment to view its details.\n\nA side panel is displayed containing the details of your sample application.",
@@ -53,6 +44,19 @@
         }
       },
       {
+        "title": "A new task ",
+        "summary": {
+          "failed": "ffff",
+          "success": "succcc"
+        },
+        "description": "This is the task description",
+        "active": true,
+        "review": {
+          "instructions": "intro",
+          "failedTaskHelp": "failed task"
+        }
+      },
+      {
         "title": "Adding health checks to your sample",
         "description": "### To add health checks to your sample:\n1. Add health checks to your **nodejs-sample** deployment in one of the following ways: (a) On the side panel, click on the **Actions** menu, where you will see an **Add Health Checks** menu item or (b) Click on the **Add Health Checks** link on the inline notification in the side panel.\n2. In the Add Health Checks form, click on the **Add Readiness Probe** link.  Leave the default values, and click on the check to add the Readiness Probe.\n3. Click on the **Add Liveness Probe** link.  Leave the default values, and click on the check to add the Liveness Probe.\n4. Click on the **Add Startup Probe** link.  Leave the default values, and click on the check to add the Startup Probe.\n5. Click **Add** when you’re done.\n\nYou will be brought back to the Topology View.",
         "review": {
@@ -64,10 +68,6 @@
           "failed": "Try the steps again."
         }
       }
-    ],
-    "conclusion": "Your sample application now has health checks. To ensure that your application is running correctly, take the **Monitor your sample application** quick start.",
-    "nextQuickStart": [
-      "monitor-sampleapp"
     ]
   }
 }
