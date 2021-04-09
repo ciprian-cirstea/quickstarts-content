@@ -9,7 +9,7 @@
     "displayName": "Adding health checks to your sample application is easy ",
     "durationMinutes": 10,
     "icon": "https://icons.iconarchive.com/icons/danieledesantis/playstation-flat/256/playstation-square-black-and-white-icon.png",
-    "description": "You just created a sample application. Now, let’s add health checks to it.\n\n``` youtube\nT5Aq7cRc-mU\n```\n\ntext\n\n``` source-mp4\nhttps://www.w3schools.com/html/mov_bbb.mp4\n\n```",
+    "description": "You just created a sample application. Now, let’s add health checks to it.",
     "prerequisites": [
       "You completed the \"Getting started with a sample\" quick start."
     ],
